@@ -1,0 +1,57 @@
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Test and coverage
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Local application data
+backend/uploads/
+agents/downloads/
+agents/vector_db/
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Local ChromaDB data
+agents/rag_agent/chroma_db/
+
+# Local database backups and temporary repair scripts
+backend/*.dump
+backend/repair_users_auth.sql
